@@ -32,7 +32,7 @@ const PostBody = () => {
                   </p>
                   <button type="button" style={{ background: "#F1F3F5" }} className="btn btn-light shareBtn">
                     <img src={shareSVG} alt="share"  />
-                    <span className="fs-6 px-2 fw-lighter d-sm-none">Share</span>
+                    <span className="fs-6 px-1 px-sm-2 fw-lighter d-sm-none">Share</span>
                   </button>
                 </div>
 

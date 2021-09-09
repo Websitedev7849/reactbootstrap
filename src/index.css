@@ -81,7 +81,7 @@ body {
 }
 
   .bottom .name {
-    grid-column: 2 / 7;
+    grid-column: 2 / 9;
   }
 
   .bottom .views {
