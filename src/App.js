@@ -33,7 +33,7 @@ function App() {
     <div className="App container-fluid">
       <Header/>
 
-      <section className="container-fluid d-flex flex-column postBody position-relative">
+      <section className="container-fluid px-xl-5 mx-xl-3 d-flex flex-column postBody position-relative">
        
        <PostCategory />
 

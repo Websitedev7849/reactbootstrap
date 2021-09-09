@@ -13,7 +13,7 @@ const GetLocation = () => {
 
     const section = {
         top: "5rem",
-        right: "4rem"
+        right: "10rem"
     }
 
     return(

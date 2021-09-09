@@ -6,11 +6,10 @@ import moreOption from "../images/more options.svg";
 const PostBody = (prop) => {
  
   const { post, cardTitle, article, textMuted, personPhoto, name, views} = prop.info;
-  console.log(post);
- 
+   
   return (
         
-    <div className="card my-4 d-inline-flex">
+    <div className="card my-4 mx-xl-5 d-inline-flex">
         <img src={post} className="card-img-top" alt="post 1" />
         <div className="card-body position-relative">
             <h5 className="card-title py-2 small">{cardTitle}</h5>
