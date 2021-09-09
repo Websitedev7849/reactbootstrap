@@ -1,6 +1,8 @@
+import addMember from "../images/add member.svg";
+
 const PostCategory = () => {
   return(
-      <>
+      <div className="container-fluid d-flex justify-conent-between">
          <div className="container-fluid h-100 d-flex justify-content-between justify-content-sm-start postCategory">
           <a className="h5 my-3 mx-3 catLink text-dark" href="/all-post"> Posts(368) </a>
           <a className="h5 my-3 mx-3 d-none d-sm-block catLink" href="/article"> Article </a>
@@ -23,7 +25,20 @@ const PostCategory = () => {
           </div>
         
         </div>
-      </>
+
+        <div className="justify-self-end mx-2 d-none d-md-inline">
+          <div className="dropdown my-2 filter">
+            <button className="btn btn-secondary dropdown-toggle text-dark filterBtn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Write a Post
+            </button>
+          </div>
+        </div>
+
+        <button type="button" style={{width: "9rem", height:"2.5rem"}} class="btn btn-primary my-2 d-none d-md-inline">
+          <img src={addMember} style={{ height: "1.2rem", width: "1.2rem" }} alt="add member" />
+          <span className="px-1" style={{ fontSize: "12px" }}>Join Group</span>
+        </button>
+      </div>
   )
 }
 

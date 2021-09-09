@@ -3,6 +3,10 @@ import searchIcon from "../images/search.png";
 import backButton from "../images/arrowBack.svg";
 import primaryLaptop from "../images/primaryLaptop.png";
 
+/**
+ * @todo
+ * transfer inline css to external stylesheet
+ */
 
 const Header = () => {
 
