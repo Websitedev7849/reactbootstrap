@@ -1,9 +1,18 @@
+import { useHistory } from "react-router-dom";
+
 import closeBtn from "../images/close.svg";
 import fb from "../images/fb.svg";
 import google from "../images/google.svg";
 import people from "../images/people.svg";
 
 const SignUp = () => {
+
+    const history = useHistory();
+
+    const closeSignUp = () => {
+        history.push("/");
+    }
+
     return (
         <div className="position-fixed w-sm-50 p-4 signup">
 
@@ -13,7 +22,7 @@ const SignUp = () => {
 
             <div className="header d-flex justify-content-between ">
                 <strong>Create Account</strong>
-                <img src={closeBtn} alt="close" />
+                <img src={closeBtn} onClick={closeSignUp} alt="close" />
             </div>
 
             <div className="d-grid position-relative my-3 getInfo">
