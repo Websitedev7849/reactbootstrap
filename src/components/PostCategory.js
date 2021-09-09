@@ -34,7 +34,7 @@ const PostCategory = () => {
           </div>
         </div>
 
-        <button type="button" style={{width: "9rem", height:"2.5rem"}} class="btn btn-primary my-2 mx-3 d-none d-md-inline">
+        <button type="button" style={{width: "9rem", height:"2.5rem"}} className="btn btn-primary my-2 mx-3 d-none d-md-inline">
           <img src={addMember} style={{ height: "1.2rem", width: "1.2rem" }} alt="add member" />
           <span className="px-1" style={{ fontSize: "12px" }}>Join Group</span>
         </button>

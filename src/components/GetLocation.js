@@ -20,7 +20,7 @@ const GetLocation = () => {
         <section className="position-absolute d-none d-xl-inline" style={section}>
             <div className="input-group mb-3" style={getLocationInput} >
                 <img src={location} alt="location" />
-                <input style={input} type="text" value="Get Location" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                <input style={input} type="text" defaultValue="Get Location" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                 <button className="btn" type="button" id="button-addon2">
                     <img src={edit} alt="edit" />
                 </button>
