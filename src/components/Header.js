@@ -52,7 +52,7 @@ const Header = () => {
             style={{
                 fontStyle: "normal",
                 fontWeight: "500",
-            }}>Create account. <a href="/"> It’s free! </a></p>
+            }}>Create account. <a href="/signup"> It’s free! </a></p>
 
         </nav>
    

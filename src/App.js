@@ -1,9 +1,12 @@
 import './App.css';
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import Header from "./components/Header";
 import PostCategory from "./components/PostCategory";
 import PostBody from "./components/PostBody";
 import GetLocation from "./components/GetLocation";
+import SignUp from "./components/SignUp";
 
 
 function App() {
@@ -43,6 +46,17 @@ function App() {
        <GetLocation />
 
       </section>
+
+      <Router>
+        <Switch>
+
+          <Route path="/signup" exact >
+            <div className="position-fixed top-0 start-0 container-fluid darkLayer"></div>
+            <SignUp />
+          </Route>
+
+        </Switch>
+      </Router>
 
     </div>
   );
