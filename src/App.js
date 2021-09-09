@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header";
 import PostCategory from "./components/PostCategory";
 import PostBody from "./components/PostBody";
+import GetLocation from "./components/GetLocation";
 
 
 function App() {
@@ -32,13 +33,14 @@ function App() {
     <div className="App container-fluid">
       <Header/>
 
-      <section className="container-fluid postBody">
+      <section className="container-fluid d-flex flex-column postBody position-relative">
        
        <PostCategory />
 
        <PostBody info = {posts[0]} />
        <PostBody info = {posts[1]} />
 
+       <GetLocation />
 
       </section>
 
