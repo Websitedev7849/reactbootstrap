@@ -47,6 +47,28 @@ body {
   bottom: 1.5rem;
 }
 
+.filterBtn{
+  background-color: #F1F3F5;
+}
+
+.catLink {
+  color: #8A8A8A;
+  text-decoration: none;
+}
+
+.catLink:hover {
+  color: #000;
+}
+
+.catLink::after {
+  content: "";
+  display: none;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: 20px;
+}
+
 @media (min-width: 576px) {
 
   .createAcc {
@@ -72,4 +94,6 @@ body {
   .headChildText2 {
     bottom: 2.5rem;
   }
+
+  
 }
