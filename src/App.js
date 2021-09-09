@@ -7,7 +7,6 @@ import PostBody from "./components/PostBody";
 
 function App() {
 
-
   return (
     <div className="App container-fluid">
       <Header/>

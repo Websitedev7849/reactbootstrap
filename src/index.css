@@ -77,7 +77,7 @@ body {
 .card .bottom {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 20px);
+  grid-template-rows: repeat(2, 20px);
 }
 
   .bottom .name {
@@ -123,6 +123,10 @@ body {
   .card{
     width: 692px;
     height: 472px;
+  }
+
+  .card {
+    height: auto;
   }
 
     .bottom .views {

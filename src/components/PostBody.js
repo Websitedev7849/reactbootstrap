@@ -9,7 +9,7 @@ const PostBody = () => {
  
  
   return (
-    <section className="d-flex flex-col justify-content-center align-items-center">
+    <section className="d-flex flex-col py-3 justify-content-center align-items-center">
         
         <div className="card">
             <img src={post1} className="card-img-top" alt="post 1" />
