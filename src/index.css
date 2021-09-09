@@ -69,6 +69,11 @@ body {
   margin-top: 20px;
 }
 
+.moreOptions {
+  top: 20px;
+  right: 30px;
+}
+
 @media (min-width: 576px) {
 
   .createAcc {
@@ -95,5 +100,9 @@ body {
     bottom: 2.5rem;
   }
 
+  .card{
+    width: 692px;
+    height: 472px;
+  }
   
 }
